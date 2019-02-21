@@ -896,13 +896,13 @@ p{
 }
 
 #slider .item-1{
-	background:linear-gradient(rgba(112, 86, 7,0.45),rgba(112, 86, 7,0.45)),url(../images/slider-1.jpg) center center no-repeat;
+	background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../images/slider-1.jpg) center center no-repeat;
 	background-size:cover;
 	height:100%;
 }
 
 #slider .item-2{
-	background:linear-gradient(rgba(112, 86, 7,0.45),rgba(112, 86, 7,0.45)),url(../images/slider-2.jpg) center center;
+	background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../images/slider-2.jpg) center center;
 	background-size:cover;
 	height:100%;
 }
