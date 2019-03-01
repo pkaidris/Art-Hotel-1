@@ -124,12 +124,18 @@ Author:			Star Hotel
 	.logo-title.big{
 		font-size: 2.45em;
 	}
+		.list-inline{
+		display: none;
+	}
 }
 
 @media(max-width:575px){
 	
 	.logo-title.big{
 		font-size: 2.2em;
+	}
+	.list-inline{
+		display: none;
 	}
 }
 
@@ -427,7 +433,7 @@ Author:			Star Hotel
 	}
 }
 
-@media(max-width:1199px){
+@media(max-width:768px){
 	
 	#mynavbar .navbar-nav{
 		max-height:300px;
@@ -454,7 +460,7 @@ Author:			Star Hotel
 	}
 }
 
-@media(min-width:768px) and (max-width:1199px){
+@media(min-width:768px) and (max-width:768px){
 
 	#mynavbar{
 		padding:0px;
@@ -550,7 +556,7 @@ Author:			Star Hotel
 	}*/
 }
 
-@media(min-width:768px) and (max-width:991px){
+/*@media(min-width:768px) and (max-width:991px){
 	
 	#mynavbar .navbar-brand img{
 		max-height:46px;
@@ -595,12 +601,12 @@ Author:			Star Hotel
 		max-height:300px;
 		overflow:auto;
 	}
-}
+}*/
 
 @media(min-width: 768px) {
 	
   	.navbar-custom {
-		padding: 30px 0;
+		/*padding: 30px 0;*/
 		-webkit-transition: padding 0.3s;
 		-moz-transition: padding 0.3s;
 		transition: padding 0.3s;
@@ -613,9 +619,9 @@ Author:			Star Hotel
 		transition: all 0.3s;
 	}
   
-	.navbar-custom.affix {
+	/*.navbar-custom.affix {
 		padding: 10px 0;
-	}
+	}*/
 	
 	.navbar-custom.affix .navbar-brand {
 		font-size: 2.4em;
@@ -757,9 +763,9 @@ Author:			Star Hotel
 		padding-left:0px;
 	}
 	
-	#mynavbar-2.affix{
+	/*#mynavbar-2.affix{
 		padding:10px 0px;	
-	}
+	}*/
 	
 	#mynavbar-2 .navbar-collapse .mynavbar-form{
 		margin-top:6px;	
@@ -838,7 +844,7 @@ Author:			Star Hotel
 			
 /*************** MY-NAVBAR-3 ***************/
 
-@media(min-width:992px){
+@media(min-width:768px){
 	
 	#mynavbar-3{
 		padding:15px 0px;	

@@ -79,15 +79,15 @@ h1,h2,h3,h4,h5,h6,.page-heading span,.footer-heading span, #slider-2 li .meta h1
 }
 
 .page-heading h2{
-	text-transform:uppercase;
-	font-size:36px;
+	text-transform:capitalize;
+	font-size:26px;
 	margin-bottom:16px;
 }
 
 .page-heading p{
 	width:65%;
 	margin:0 auto;
-	font-size:14px;
+	font-size:13px;
 	line-height: 2.11em;
 }
 
@@ -163,7 +163,7 @@ h1,h2,h3,h4,h5,h6,.page-heading span,.footer-heading span, #slider-2 li .meta h1
 }
 
 .innerpage-heading h1{
-	text-transform:uppercase;
+	text-transform:capitalize;
 	margin-bottom:20px;
 	font-size:36px;
 }
@@ -194,9 +194,9 @@ h1,h2,h3,h4,h5,h6,.page-heading span,.footer-heading span, #slider-2 li .meta h1
 }
 
 .btn{
-	font-size:14px;
+	font-size:12px;
 	text-transform:uppercase;
-	font-weight:bold;
+	letter-spacing: .25rem;
 }
 
 .section-padding{
@@ -499,7 +499,7 @@ h1,h2,h3,h4,h5,h6,.page-heading span,.footer-heading span, #slider-2 li .meta h1
 }
 
 .navbar-default .nav > li > a{
-	font-size:14px;
+	font-size:13px;
 	font-weight:300;
 	text-transform:uppercase;
 	letter-spacing: .200rem;
@@ -901,7 +901,7 @@ ul.slides {
 }
 
 #hero-main .hero-content .text-align #tagline{
-	font-size:24px;
+	font-size:22px;
 	font-weight:100;
 	text-transform:uppercase;
 	letter-spacing: .7rem;
@@ -1064,9 +1064,9 @@ ul.slides {
 }
 
 #about-text h2{
-	font-size:36px;
+	font-size:26px;
 	margin-bottom:20px;
-	text-transform:uppercase;
+	text-transform:capitalize;
 }
 
 #about-text .btn{
@@ -1688,16 +1688,16 @@ ul.slides {
 }
 
 .service-block .fa{
-	font-size:80px;
+	font-size:40px;
 	margin-bottom:40px;
 	transition:.4s;
 }
 
 .service-block .service-name{
-	font-weight:bold;
-	font-size:24px;
+	font-size:18px;
 	text-transform:uppercase;
 	margin-bottom:15px;
+	padding: 0 15px 0 15px;
 }
 
 .service-block p{
@@ -2447,7 +2447,7 @@ ul.slides {
 
 #footer-top p,
 #footer-top ul li{
-	font-size:14px;
+	font-size:13px;
 	letter-spacing:.09rem;
 }
 
@@ -2501,7 +2501,7 @@ ul.slides {
 
 #footer-top.ftr-top-style-2 #more-about p{
 	margin:0 auto;
-	font-size:14px;
+	font-size:13px;
 	font-weight:300;
 }
 
@@ -2565,7 +2565,7 @@ ul.slides {
 #footer-bottom p,
 #footer-bottom ul{
 	margin-bottom:0px;
-	font-size:15px;
+	/*font-size:15px;*/
 }
 
 #footer-bottom li:first-child{
@@ -2672,15 +2672,15 @@ ul.slides {
 }
 
 .page-cover h1{
-	font-size:40px;
-	text-transform:uppercase;
+	font-size:26px;
+	text-transform:capitalize;
 	margin-bottom:15px;
 }
 
 .page-cover .breadcrumb{
 	padding:0px;
 	margin:0px;
-	font-size:18px;
+	font-size:14px;
 	font-weight:300;
 }
 
@@ -3275,7 +3275,7 @@ ul.slides {
 }
 
 .dinning-block p{
-	font-size:15px;
+	/*font-size:15px;*/
 	width:95%;
 }
 
@@ -3286,9 +3286,9 @@ ul.slides {
 }
 
 .dish-title{
-	font-size:34px;
-	font-weight:bold;
-	text-transform:uppercase;
+	font-size:26px;
+	font-weight:300;
+	text-transform:capitalize;
 	margin-bottom:18px;
 }
 
@@ -3391,8 +3391,8 @@ ul.slides {
 }
 
 .offer-title{
-	font-size:28px;
-	text-transform:uppercase;
+	font-size:26px;
+	text-transform:capitalize;
 	margin-bottom:16px;
 }
 
@@ -4649,4 +4649,12 @@ ul.slides {
 #hero-main .hero-content .text-align .ah1{
 	font-family: 'Theano Didot', serif;
 	color: #d2ae6d;
+}
+
+h3, .footer-heading span, #slider-2 li .meta h1 span, #banner-6 .banner-6-text h2 span, .room-block-2-title h3 a {
+    font-family: 'Montserrat', serif;
+    margin-top: 0;
+	line-height: 1.3em;
+	font-weight: 500;
+	letter-spacing: .2rem;
 }

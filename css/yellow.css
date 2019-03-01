@@ -190,7 +190,7 @@ p{
    ----------------------------------------------------- */
 
 #top-bar{
-	background-color:#d2ae6d;
+	background-color:#fff;
 }
 
 #top-bar #links ul li a,
@@ -446,7 +446,7 @@ p{
 	background:#d2ae6d;	
 }
 
-@media(max-width:1199px){
+@media(max-width:768px){
 	
 	.navbar-default .nav > li{
 		border-bottom:1px solid #333333;
@@ -460,7 +460,7 @@ p{
 	}
 }
 
-@media(min-width:768px) and (max-width:1199px){
+@media(min-width:768px) and (max-width:768px){
 	
 	.transparent-nav .navbar-collapse .navbar-nav{
 		background:black;
@@ -478,7 +478,7 @@ p{
 @media (min-width: 768px) {
 	
 	.transparent-nav {
-		background:transparent;
+		background:black;
 		border-color: transparent;
 	}
 	
@@ -1095,12 +1095,12 @@ p{
 }
 
 #about-text{
-	background:#d2ae6d;
+	background:#000;
 }
 
 #about-text h2,
 #about-text p{
-	color:#000000;
+	color:#d2ae6d;
 	text-align: justify;
 }
 
