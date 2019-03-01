@@ -51,15 +51,16 @@ html,body{
 }
 
 p,ul,a,.btn,span,input,select,textarea, blockquote, label, #tagline,.highlight-box h2,.highlight-box h4,.p-table-heading .price, #error-text h1, .offer-price,.coming-soon-text h1, .dish-deal-text h2, .rstnt-name, #mySidenav #web-name, .logo-title, .page-heading-2 h2, #banner-5 .highlight-box-2 .h-text h2, #banner-5 .highlight-box-2 .h-text h4, .page-heading-3 h4,.room-block-2-title h4, .price-table-2 .p-table-2-heading .price-2, #main-menu .list-group .sub-menu .list-group-heading{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 p,ul{
-	line-height:1.5em;
+	line-height:1.7em;
 }
 
 p{
-	font-size:16px;
+	font-size:13px;
+	font-weight: 300;
 }
 
 ul{
@@ -67,7 +68,7 @@ ul{
 }
 
 h1,h2,h3,h4,h5,h6,.page-heading span,.footer-heading span, #slider-2 li .meta h1 span, #banner-6 .banner-6-text h2 span, .room-block-2-title h3 a{
-	font-family: 'Playfair Display', serif;
+	font-family: 'Theano Didot', serif;
 	margin-top:0;
 	line-height:1.3em;
 }
@@ -79,15 +80,15 @@ h1,h2,h3,h4,h5,h6,.page-heading span,.footer-heading span, #slider-2 li .meta h1
 
 .page-heading h2{
 	text-transform:uppercase;
-	font-size:48px;
-	font-weight:bold;
+	font-size:36px;
 	margin-bottom:16px;
 }
 
 .page-heading p{
 	width:65%;
 	margin:0 auto;
-	font-size:18px;
+	font-size:14px;
+	line-height: 2.11em;
 }
 
 .page-heading-2{
@@ -163,9 +164,8 @@ h1,h2,h3,h4,h5,h6,.page-heading span,.footer-heading span, #slider-2 li .meta h1
 
 .innerpage-heading h1{
 	text-transform:uppercase;
-	font-weight:bold;
 	margin-bottom:20px;
-	font-size:35px;
+	font-size:36px;
 }
 
 .innerpage-heading p{
@@ -194,7 +194,7 @@ h1,h2,h3,h4,h5,h6,.page-heading span,.footer-heading span, #slider-2 li .meta h1
 }
 
 .btn{
-	font-size:16px;
+	font-size:14px;
 	text-transform:uppercase;
 	font-weight:bold;
 }
@@ -499,9 +499,10 @@ h1,h2,h3,h4,h5,h6,.page-heading span,.footer-heading span, #slider-2 li .meta h1
 }
 
 .navbar-default .nav > li > a{
-	font-size:16px;
-	font-weight:400;
+	font-size:14px;
+	font-weight:300;
 	text-transform:uppercase;
+	letter-spacing: .200rem;
 }
 
 .navbar-default .nav > li > a .fa{
@@ -896,7 +897,6 @@ ul.slides {
 #hero-main .hero-content .text-align #welcome{
 	font-size:58px;
 	text-transform:uppercase;
-	font-weight:bold;
 	margin-bottom:22px;
 }
 
@@ -904,6 +904,7 @@ ul.slides {
 	font-size:24px;
 	font-weight:100;
 	text-transform:uppercase;
+	letter-spacing: .7rem;
 }
 
 #hero-main .hero-text form{
@@ -1063,8 +1064,7 @@ ul.slides {
 }
 
 #about-text h2{
-	font-size:38px;
-	font-weight:bold;
+	font-size:36px;
 	margin-bottom:20px;
 	text-transform:uppercase;
 }
@@ -1702,7 +1702,7 @@ ul.slides {
 
 .service-block p{
 	margin:0px auto;
-	font-weight:400;
+	font-weight:300;
 	line-height:1.4em;
 	width:80%;
 }
@@ -2447,7 +2447,8 @@ ul.slides {
 
 #footer-top p,
 #footer-top ul li{
-	font-size:15px;
+	font-size:14px;
+	letter-spacing:.09rem;
 }
 
 #footer-top #company ul li,
@@ -2500,7 +2501,8 @@ ul.slides {
 
 #footer-top.ftr-top-style-2 #more-about p{
 	margin:0 auto;
-	font-size:17px;
+	font-size:14px;
+	font-weight:300;
 }
 
 #footer-top.ftr-top-style-2 #more-about .social-links{
@@ -2671,7 +2673,6 @@ ul.slides {
 
 .page-cover h1{
 	font-size:40px;
-	font-weight:bold;
 	text-transform:uppercase;
 	margin-bottom:15px;
 }
@@ -2941,7 +2942,8 @@ ul.slides {
 }
 
 #intro-text p{
-	line-height:1.66em;
+	line-height:1.9em;
+	font-weight: 300;
 }
 
 #intro #features{
@@ -3389,8 +3391,7 @@ ul.slides {
 }
 
 .offer-title{
-	font-size:30px;
-	font-weight:bold;
+	font-size:28px;
 	text-transform:uppercase;
 	margin-bottom:16px;
 }
@@ -4409,9 +4410,9 @@ ul.slides {
 }
 
 #contact-page #contact-blocks ul li p{
-	font-size:15px;
-	line-height:1.27em;
-	margin-bottom:8px;
+	font-size:13px;
+	line-height:1.7em;
+	margin-bottom:10px;
 }
 
 #contact-page #contact-blocks ul li .support{
@@ -4430,7 +4431,7 @@ ul.slides {
 #contact-page #contact-form input,
 #contact-page #contact-form textarea{
 	text-transform:uppercase;
-	font-size:14px;
+	font-size:12px;
 	margin-bottom:30px;
 	padding-left:20px;
 }
@@ -4646,6 +4647,6 @@ ul.slides {
 }
 
 #hero-main .hero-content .text-align .ah1{
-	font-family: 'Playfair Display', serif;
+	font-family: 'Theano Didot', serif;
 	color: #d2ae6d;
 }
