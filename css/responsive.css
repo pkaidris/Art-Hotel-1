@@ -603,7 +603,7 @@ Author:			Star Hotel
 	}
 }*/
 
-@media(min-width: 768px) {
+@media(min-width: 1200px) {
 	
   	.navbar-custom {
 		/*padding: 30px 0;*/
@@ -640,7 +640,7 @@ Author:			Star Hotel
 	}
 }
 
-@media(max-width:767px){
+@media(min-width:1200px){
 
 	#mynavbar{
 		z-index:100;

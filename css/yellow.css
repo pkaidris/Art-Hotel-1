@@ -477,10 +477,10 @@ p{
 
 @media (min-width: 768px) {
 	
-	.transparent-nav {
+/*	.transparent-nav {
 		background:black;
 		border-color: transparent;
-	}
+	}*/
 	
 	.transparent-nav .navbar-header .navbar-brand:hover,
 	.transparent-nav .navbar-header .navbar-brand:focus {
@@ -902,7 +902,13 @@ p{
 }
 
 #slider .item-2{
-	background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../images/slider-2.jpg) center center;
+	background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../images/slider-2.jpg) center bottom no-repeat;
+	background-size:cover;
+	height:100%;
+}
+
+#slider .item-3{
+	background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../images/slider-3.jpg) center bottom no-repeat;
 	background-size:cover;
 	height:100%;
 }
@@ -1092,10 +1098,12 @@ p{
 	background:url('../images/about-img.jpg');
 	background-size:cover;
 	background-position:50% 50%;
+	border-radius: 25px 25px 25px 25px;
 }
 
 #about-text{
 	background:#000;
+	border-radius: 25px 0 0 25px;
 }
 
 #about-text h2,
