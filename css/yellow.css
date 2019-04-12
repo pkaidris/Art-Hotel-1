@@ -2700,6 +2700,7 @@ p{
 #dinning-cover{
 	background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url('../images/dining-cover.jpg') 66% 36%;
 	background-size:cover;
+	background-position: center;
 }
 
 #shef-text h1{
@@ -2731,6 +2732,7 @@ p{
 	background:url('../images/dish-2.jpg') 34% 50% no-repeat;
 	background-size:240%;
 	border-radius: 25px 0px 0px 0px;
+	background-position: center;
 }
 
 #dinning-3{
@@ -3459,6 +3461,7 @@ p{
 #contact-cover{
 	background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url('../images/contact-cover.jpg') 50% 87%;
 	background-size:cover;
+	background-position: center;
 }
 
 #contact-page #contact-blocks ul li{
